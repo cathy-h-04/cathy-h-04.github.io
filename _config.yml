@@ -35,7 +35,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm a senior at Harvard studying Computer Science & Statistics.
   I have a strong interest in systems, networking, and high-performance programming. Demonstrated experience with distributed systems and performance optimizations applied to machine learning and AI workloads. Excited to work @ intersection of ML and Systems!
