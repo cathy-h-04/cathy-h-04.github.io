@@ -48,29 +48,29 @@ content:
         title: Smart Student Model
         link: https://github.com/cathy-h-04/smart-student-model
         link_text: GitHub
-        quote: "`Automated multilingual MCQ validation` using *context-aware NLP models*"
+        quote: "Automated multilingual MCQ validation using context-aware NLP models"
         description: |
-          Built a system to evaluate the quality of reading comprehension multiple-choice questions (MCQs) in **English** and **Portuguese** using the `Pirá 2.0` dataset.  
+          Built a system to evaluate the quality of reading comprehension multiple-choice questions (MCQs) in **English** and **Portuguese** using the `Pirá 2.0` dataset.  
           Trained and compared `context-sensitive` vs. `context-agnostic` models to detect passage-dependence, helping educators identify low-quality assessment items.
 
       - layout: left
         title: KonkurrentKruskal
-        quote: "`Parallelized Kruskal’s algorithm` with shared + distributed memory • ~30% speedup per processor"
+        quote: "Parallelized Kruskal's algorithm with shared + distributed memory • ~30% speedup per processor"
         description: |
-          Re-engineered Kruskal’s algorithm using **OpenMP** and **MPI** for urban infrastructure planning.  
-          Constructed local MSTs, applied parallel radix sort, and optimized edge filtering.  
+          Re-engineered Kruskal's algorithm using **OpenMP** and **MPI** for urban infrastructure planning.  
+          Constructed local MSTs, applied parallel hyper QuickSort, and optimized edge filtering.  
           Achieved significant runtime improvements on large-scale logistics graphs.
 
       - layout: left
         title: Differential Privacy Tool
         link: https://github.com/cathy-h-04/differential-privacy-tool
         link_text: GitHub
-        quote: "`Interactive privacy playground` for exploring differential privacy"
+        quote: "Interactive privacy playground for exploring differential privacy"
         description: |
           Developed a full-stack app (**Flask** + **React/Tailwind**) to demo differential privacy techniques:  
           - **Privacy playground** for experimenting with noise mechanisms  
           - Form input → **local privatization** before submission  
-          - **Personalized DP queries** with ε‑based row filtering  
+          - **Personalized DP queries** with ε based row filtering  
           - **Data shuffling** to protect aggregated records
 
       - layout: left
@@ -81,7 +81,7 @@ content:
           - title: Example Script
             icon: fas fa-file-alt
             url: https://github.com/cathy-h-04/podcast-machine/blob/main/backend/example_script.txt
-        quote: "`LLM-to-audio pipeline` that transforms PDFs into narrated podcast episodes"
+        quote: "LLM-to-audio pipeline that transforms PDFs into narrated podcast episodes"
         description: |
           Built an AI system to convert research PDFs into podcast episodes using:  
           - `Claude AI` for **multi-voice script generation**  
@@ -90,8 +90,8 @@ content:
           Supports debate/interview formats and includes **Tavus** video integration.
 
       - layout: left
-        title: Deep Space X11‑Proxy (NASA JPL)
-        quote: "`X11/TCP proxy` for **synchronized GUI control** over the Deep Space Network"
+        title: Deep Space X11 Proxy (NASA JPL)
+        quote: "X11/TCP proxy for synchronized GUI control over the Deep Space Network"
         description: |
           Developed a TCP-based `X11` proxy to duplicate and synchronize Deep Space Network GUIs across remote displays.  
           Enabled real-time command control switching and implemented **session persistence** with durable state storage.
@@ -102,8 +102,8 @@ content:
       - layout: right
         title: Amazon
         sub_title: Software Engineering Intern
-        caption: June 2025 – Present
-        quote: "`Built a conversational agent` for querying deployment data"
+        caption: June 2025 to Present
+        quote: "Built a conversational agent for querying deployment data"
         description: |
           - Built a chatbot to analyze deployment and validation data from `PostgreSQL` + `DynamoDB`  
           - Deployed a serverless backend using **AWS Lambda**, **API Gateway**, **CDK**  
@@ -113,8 +113,8 @@ content:
       - layout: right
         title: NASA Jet Propulsion Laboratory
         sub_title: Software Engineering Intern
-        caption: June 2024 – Aug 2024
-        quote: "`X11/TCP GUI multiplexing` across deep-space command terminals"
+        caption: June 2024 to Aug 2024
+        quote: "X11/TCP GUI multiplexing across deep-space command terminals"
         description: |
           - Deployed proxy `X11` servers for real-time GUI mirroring  
           - Enabled synchronized command switching across distributed displays  
@@ -123,7 +123,7 @@ content:
       - layout: right
         title: Harvard University
         sub_title: CS51 Head Teaching Fellow, CS50 Course Assistant
-        caption: Aug 2023 – Present
+        caption: Aug 2023 to Present
         description: |
           - Led sections on **recursion**, memory management, and formal semantics  
           - Hosted office hours, wrote unit tests, and mentored TAs  
@@ -132,7 +132,7 @@ content:
       - layout: right
         title: Alaska Center for Energy and Power
         sub_title: NSF Computer Science Intern
-        caption: Jun 2023 – Nov 2023
+        caption: Jun 2023 to Nov 2023
         description: |
           - Modeled synthetic **power grids** for remote Alaskan towns  
           - Built a forecasting dashboard for renewable energy transitions  
@@ -144,8 +144,8 @@ content:
       - layout: top-right
         title: Harvard University
         sub_title: B.A. Computer Science & Statistics
-        caption: Aug 2022 – May 2026 (expected)
-        quote: "**Systems, ML, & statistical modeling** focus"
+        caption: Aug 2022 to May 2026 (expected)
+        quote: "Systems, ML, & statistical modeling focus"
         description: |
           **Relevant Coursework:**  
           `Abstraction + Design in Computation` • `Systems Programming` • `Artificial Intelligence`  
