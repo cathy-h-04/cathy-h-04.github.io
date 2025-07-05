@@ -55,7 +55,6 @@ content:
           in English and Portuguese using the Pirá 2.0 dataset. Trained and compared context-sensitive 
           and context-agnostic models to detect whether questions require passage understanding. 
           Helps educators identify and fix poor-quality assessment items.
-            content:
       - layout: left
         title: KonkurrentKruskal
         link: 
@@ -98,60 +97,59 @@ content:
           Built a TCP-based X11 proxy to render synchronized Deep Space Network GUIs
           across remote displays. Enabled command-control switching via sync techniques
           and ensured session persistence with long-term state storage.
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Amazon
+        sub_title: Software Engineering Intern
+        caption: June 2025 to Present
+        quote: >
+          Built an intelligent agent to query multi-source deployment data at scale.
+        description: |
+          - Built a chatbot to analyze deployment and validation data from PostgreSQL+DynamoDB  
+          - Deployed a serverless backend (AWS Lambda, API Gateway, CDK) supporting 1,000+ requests/sec  
+          - Created an MCP-style agent to construct, execute, and explain queries, cutting lookup time by 80%  
+          - Integrated RAG, prompt engineering, and orchestration workflows
 
-- title: Experience
-  layout: list
-  content:
-    - layout: right
-      title: Amazon
-      sub_title: Software Engineering Intern
-      caption: June 2025 to Present
-      quote: >
-        Built an intelligent agent to query multi-source deployment data at scale.
-      description: |
-        - Built a chatbot to analyze deployment and validation data from PostgreSQL+DynamoDB  
-        - Deployed a serverless backend (AWS Lambda, API Gateway, CDK) supporting 1,000+ requests/sec  
-        - Created an MCP-style agent to construct, execute, and explain queries, cutting lookup time by 80%  
-        - Integrated RAG, prompt engineering, and orchestration workflows
+      - layout: right
+        title: NASA Jet Propulsion Laboratory
+        sub_title: Software Engineering Intern
+        caption: June 2024 to Aug 2024
+        quote: >
+          Networked GUI control over the Deep Space Network using X11/TCP protocol.
+        description: |
+          - Duplicated X client interfaces to multiple X servers for remote GUI rendering  
+          - Implemented synchronized GUI command switching across remote displays  
+          - Designed proxy X servers to intercept and analyze client streams  
+          - Enabled state-preserving user sessions with long-term storage features
 
-    - layout: right
-      title: NASA Jet Propulsion Laboratory
-      sub_title: Software Engineering Intern
-      caption: June 2024 to Aug 2024
-      quote: >
-        Networked GUI control over the Deep Space Network using X11/TCP protocol.
-      description: |
-        - Duplicated X client interfaces to multiple X servers for remote GUI rendering  
-        - Implemented synchronized GUI command switching across remote displays  
-        - Designed proxy X servers to intercept and analyze client streams  
-        - Enabled state-preserving user sessions with long-term storage features
+      - layout: right
+        title: Harvard University
+        sub_title: CS51 Head Teaching Fellow, CS50 Course Assistant
+        caption: Aug 2023 to Present
+        description: |
+          - Taught recursion, memory management, and formal semantics  
+          - Led sections, office hours, and wrote unit tests
+          - 1/200+ students selected from class to serve as Head Teaching Fellow
 
-    - layout: right
-      title: Harvard University
-      sub_title: CS51 Head Teaching Fellow, CS50 Course Assistant
-      caption: Aug 2023 to Present
-      description: |
-        - Taught recursion, memory management, and formal semantics  
-        - Led sections, office hours, and wrote unit tests
-        - 1/200+ students selected from class to serve as Head Teaching Fellow
-
-    - layout: right
-      title: Alaska Center for Energy and Power
-      sub_title: NSF CS Intern
-      caption: June 2023 to Nov 2023
-      description: |
-        - Developed a synthetic power grid model of a remote Alaskan town  
-        - Built a forecasting website for renewable energy adoption  
-        - Presented at NAPS, submitted to IEEE
+      - layout: right
+        title: Alaska Center for Energy and Power
+        sub_title: NSF CS Intern
+        caption: June 2023 to Nov 2023
+        description: |
+          - Developed a synthetic power grid model of a remote Alaskan town  
+          - Built a forecasting website for renewable energy adoption  
+          - Presented at NAPS, submitted to IEEE
   - title: Education
     layout: list
     content:
-        - layout: top-right
-          title: Harvard University
-          sub_title: B.A. in Computer Science and Statistics
-          caption: Aug 2022 to May 2026 (expected)
-          quote: >
-            Focus on systems, machine learning, and statistical modeling
+      - layout: top-right
+        title: Harvard University
+        sub_title: B.A. in Computer Science and Statistics
+        caption: Aug 2022 to May 2026 (expected)
+        quote: >
+          Focus on systems, machine learning, and statistical modeling
           description: | # this will include new lines to allow paragraphs
             Relevant Coursework:
               Abstraction+Design in Computation
@@ -160,7 +158,7 @@ content:
               Computer Graphics
               Data Science
               Advanced Data Science
-              Algorithms + Limitations
+              Algorithms + Limitations  
               Data Structures
               High-Performance Computing
               Systems Security
@@ -197,7 +195,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
