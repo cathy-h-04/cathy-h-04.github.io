@@ -48,34 +48,31 @@ content:
         title: Smart Student Model
         link: https://github.com/cathy-h-04/smart-student-model
         link_text: GitHub
-        additional_links: []
-        quote: "Automated validation of multilingual MCQs using context-aware NLP models"
+        quote: "`Automated multilingual MCQ validation` using *context-aware NLP models*"
         description: |
-          Built a system to evaluate the quality of reading comprehension multiple-choice questions (MCQs) 
-          in English and Portuguese using the Pirá 2.0 dataset. Trained and compared context-sensitive 
-          and context-agnostic models to detect whether questions require passage understanding. 
-          Helps educators identify and fix poor-quality assessment items.
+          Built a system to evaluate the quality of reading comprehension multiple-choice questions (MCQs) in **English** and **Portuguese** using the `Pirá 2.0` dataset.  
+          Trained and compared `context-sensitive` vs. `context-agnostic` models to detect passage-dependence, helping educators identify low-quality assessment items.
+
       - layout: left
         title: KonkurrentKruskal
-        link: 
-        link_text: GitHub
-        additional_links: []
-        quote: "A parallelized Kruskal's alg. with shared+distributed memory at 30% speedup per processor"
+        quote: "`Parallelized Kruskal’s algorithm` with shared + distributed memory • ~30% speedup per processor"
         description: |
-          Re-engineered Kruskal's algorithm for urban infrastructure planning by integrating OpenMP and MPI parallelism. 
-          Built a hybrid model to construct local MSTs, apply parallel radix sorting, and reduce serial edge processing. 
-          Demonstrated significant runtime speedups for large-scale logistics and transportation graphs.
+          Re-engineered Kruskal’s algorithm using **OpenMP** and **MPI** for urban infrastructure planning.  
+          Constructed local MSTs, applied parallel radix sort, and optimized edge filtering.  
+          Achieved significant runtime improvements on large-scale logistics graphs.
+
       - layout: left
         title: Differential Privacy Tool
         link: https://github.com/cathy-h-04/differential-privacy-tool
         link_text: GitHub
-        additional_links: []
-        quote: "Tool for privacy-preserving data analysis"
+        quote: "`Interactive privacy playground` for exploring differential privacy"
         description: |
-          Developed a full-stack web app with a Flask backend and React/Tailwind frontend to demonstrate 
-          differential privacy techniques. Includes a privacy playground for experimenting with mechanisms, 
-          a form that locally privatizes user input before submission, and personalized DP query execution 
-          with epsilon-based row-level filtering. Also implements data shuffling for aggregator privacy.
+          Developed a full-stack app (**Flask** + **React/Tailwind**) to demo differential privacy techniques:  
+          - **Privacy playground** for experimenting with noise mechanisms  
+          - Form input → **local privatization** before submission  
+          - **Personalized DP queries** with ε‑based row filtering  
+          - **Data shuffling** to protect aggregated records
+
       - layout: left
         title: Podcast Machine
         link: https://github.com/cathy-h-04/podcast-machine
@@ -83,111 +80,100 @@ content:
         additional_links:
           - title: Example Script
             icon: fas fa-file-alt
-            url: https://github.com/cathy-h-04/podcast-machine/blob/main/example_script.txt
-        quote: "LLM-powered tool that transforms PDFs into voice-narrated podcasts with auto-generated cover art"
+            url: https://github.com/cathy-h-04/podcast-machine/blob/main/backend/example_script.txt
+        quote: "`LLM-to-audio pipeline` that transforms PDFs into narrated podcast episodes"
         description: |
-          Built an AI system that takes PDFs or research topics and generates multi-voice podcast episodes. 
-          Uses Claude AI for script generation, Cartesia TTS for realistic speaker voices, and Stable Diffusion 
-          for dynamic cover art. Features custom podcast formats (e.g., debate, interview), a professional-grade 
-          audio player, and Tavus API integration for video-based podcast discussion.
+          Built an AI system to convert research PDFs into podcast episodes using:  
+          - `Claude AI` for **multi-voice script generation**  
+          - `Cartesia TTS` for voice cloning  
+          - `Stable Diffusion` for auto-generated cover art  
+          Supports debate/interview formats and includes **Tavus** video integration.
+
       - layout: left
-        title: Deep Space X11-Proxy (NASA JPL)
-        quote: "X11/TCP proxy for synchronized remote GUIs"
+        title: Deep Space X11‑Proxy (NASA JPL)
+        quote: "`X11/TCP proxy` for **synchronized GUI control** over the Deep Space Network"
         description: |
-          Built a TCP-based X11 proxy to render synchronized Deep Space Network GUIs
-          across remote displays. Enabled command-control switching via sync techniques
-          and ensured session persistence with long-term state storage.
+          Developed a TCP-based `X11` proxy to duplicate and synchronize Deep Space Network GUIs across remote displays.  
+          Enabled real-time command control switching and implemented **session persistence** with durable state storage.
+
   - title: Experience
     layout: list
     content:
       - layout: right
         title: Amazon
         sub_title: Software Engineering Intern
-        caption: June 2025 to Present
-        quote: >
-          Built an intelligent agent to query multi-source deployment data at scale.
+        caption: June 2025 – Present
+        quote: "`Built a conversational agent` for querying deployment data"
         description: |
-          - Built a chatbot to analyze deployment and validation data from PostgreSQL+DynamoDB  
-          - Deployed a serverless backend (AWS Lambda, API Gateway, CDK) supporting 1,000+ requests/sec  
-          - Created an MCP-style agent to construct, execute, and explain queries, cutting lookup time by 80%  
-          - Integrated RAG, prompt engineering, and orchestration workflows
+          - Built a chatbot to analyze deployment and validation data from `PostgreSQL` + `DynamoDB`  
+          - Deployed a serverless backend using **AWS Lambda**, **API Gateway**, **CDK**  
+          - Created an intelligent agent to automate complex queries, reducing lookup time by 80%  
+          - Integrated **RAG**, prompt engineering, and microservices orchestration
 
       - layout: right
         title: NASA Jet Propulsion Laboratory
         sub_title: Software Engineering Intern
-        caption: June 2024 to Aug 2024
-        quote: >
-          Networked GUI control over the Deep Space Network using X11/TCP protocol.
+        caption: June 2024 – Aug 2024
+        quote: "`X11/TCP GUI multiplexing` across deep-space command terminals"
         description: |
-          - Duplicated X client interfaces to multiple X servers for remote GUI rendering  
-          - Implemented synchronized GUI command switching across remote displays  
-          - Designed proxy X servers to intercept and analyze client streams  
-          - Enabled state-preserving user sessions with long-term storage features
+          - Deployed proxy `X11` servers for real-time GUI mirroring  
+          - Enabled synchronized command switching across distributed displays  
+          - Built session state storage for **resilient user continuity**
 
       - layout: right
         title: Harvard University
         sub_title: CS51 Head Teaching Fellow, CS50 Course Assistant
-        caption: Aug 2023 to Present
+        caption: Aug 2023 – Present
         description: |
-          - Taught recursion, memory management, and formal semantics  
-          - Led sections, office hours, and wrote unit tests
-          - 1/200+ students selected from class to serve as Head Teaching Fellow
+          - Led sections on **recursion**, memory management, and formal semantics  
+          - Hosted office hours, wrote unit tests, and mentored TAs  
+          - Selected from 200+ students as **Head Teaching Fellow**
 
       - layout: right
         title: Alaska Center for Energy and Power
-        sub_title: NSF CS Intern
-        caption: June 2023 to Nov 2023
+        sub_title: NSF Computer Science Intern
+        caption: Jun 2023 – Nov 2023
         description: |
-          - Developed a synthetic power grid model of a remote Alaskan town  
-          - Built a forecasting website for renewable energy adoption  
-          - Presented at NAPS, submitted to IEEE
+          - Modeled synthetic **power grids** for remote Alaskan towns  
+          - Built a forecasting dashboard for renewable energy transitions  
+          - Presented findings at **NAPS**; submitted work to **IEEE**
+
   - title: Education
     layout: list
     content:
       - layout: top-right
         title: Harvard University
-        sub_title: B.A. in Computer Science and Statistics
-        caption: Aug 2022 to May 2026 (expected)
-        quote: >
-          Focus on systems, machine learning, and statistical modeling
-          description: | # this will include new lines to allow paragraphs
-            Relevant Coursework:
-              Abstraction+Design in Computation
-              Systems Programming
-              Artificial Intelligence
-              Computer Graphics
-              Data Science
-              Advanced Data Science
-              Algorithms + Limitations  
-              Data Structures
-              High-Performance Computing
-              Systems Security
-              Differential Privacy
-              Distributed Systems (MIT)
-              Linear Algebra
-              Multivariable Calculus
-              Probability
-              Statistical Inference
-              Privacy+Tech
-              Discrete Math
+        sub_title: B.A. Computer Science & Statistics
+        caption: Aug 2022 – May 2026 (expected)
+        quote: "**Systems, ML, & statistical modeling** focus"
+        description: |
+          **Relevant Coursework:**  
+          `Abstraction + Design in Computation` • `Systems Programming` • `Artificial Intelligence`  
+          `Computer Graphics` • `Data Science` • `Advanced Data Science` • `Algorithms` • `Data Structures`  
+          `High-Performance Computing` • `Systems Security` • `Distributed Systems` • `Differential Privacy`  
+          `Linear Algebra` • `Multivariable Calculus` • `Probability` • `Statistics` • `Privacy + Tech` • `Discrete Math`
 
   - title: Extracurriculars + Interests
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       **Social Impact Work**  
-      Created an AI-based chatbot to help low-income families access social services through OneDegree, a non-profit resource directory. The project was featured in [OneDegree's blog](https://about.1degree.org/exploring-ais-potential-in-social-services-harvard-x-one-degree/), highlighting the use of natural language models to improve equity in resource access.
+      Built an AI chatbot for `OneDegree`, a nonprofit aiding low-income families — featured in [OneDegree’s blog](https://about.1degree.org/exploring-ais-potential-in-social-services-harvard-x-one-degree/).
 
-      **Environmental Work**
-      - Advised $150M+ impact fund on solar home system expansion in Sub-Saharan Africa through Harvard Consulting for Business and the Environment   
-      - Created financial simulation game and green energy strategy tools for nonprofits through Tech for Social Good  
-      - Led research on EU treaty reforms for energy autonomy; presented to Czech government via Harvard Foreign Policy Initiative  
-      - Consulted solar startup SYSO Technologies on energy legislation and market entry as part of Harvard Clean Energy Group
+      **Environmental Work**  
+      - Advised $150M+ solar fund via **HCBE** on Sub-Saharan Africa expansion  
+      - Developed green energy tools via **Tech for Social Good**  
+      - Presented EU energy research to Czech government via **FPI**  
+      - Consulted solar policy for **Harvard Clean Energy Group**
 
       **Leadership**  
-      Director of Professional Development of Harvard Computer Society, Case Team Leader of Harvard Data Analytics Group, Senior Software Engineer of Tech for Social Good. Engaged in mentoring and career opportunities, tech-for-social-good initiatives, and research discussions around NLP and data privacy.
+      Director of Professional Development @ **Harvard Computer Society** •  
+      Case Team Lead @ **Harvard Data Analytics Group** •  
+      Senior Software Engineer @ **Tech for Social Good**
 
       **Interests**  
-      Passionate about privacy-preserving AI, real-time systems, and environment. Outside of academics, I enjoy birdwatching and hiking!
+      Passionate about *privacy-preserving AI*, real-time systems, and sustainability.  
+      I enjoy `birdwatching`, `hiking`, and mentoring aspiring engineers.
+
 
 # Footer
 footer_show_references: true
